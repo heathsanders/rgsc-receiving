@@ -7,13 +7,13 @@
 </ion-header>
 <ion-content padding id="page1">
   <img src="assets/img/uOYggRJxQeGL88qZxds1_logo.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
-  <button id="rGSCReceiving-button1" ion-button outline color="primary" full icon-left>
+  <button id="rGSCReceiving-button1" ion-button outline color="primary" full icon-left (click)="scanCode()">
     <ion-icon name="barcode"></ion-icon>
     Scan Barcode
   </button>
   <div id="rGSCReceiving-markdown2" class="show-list-numbers-and-dots">
     <p style="color:#000000;font-size:20px;">
-      Item #:
+      Item #: {{ scannedCode }}
       <strong></strong>
     </p>
   </div>

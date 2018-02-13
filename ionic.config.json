@@ -1,0 +1,8 @@
+{
+  "name": "rgsc-receiving",
+  "app_id": "d7a0b50f",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

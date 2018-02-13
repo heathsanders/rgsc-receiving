@@ -10,9 +10,6 @@ export class RGSCReceivingPage {
 
   scannedCode = null;
 
-  constructor(public navCtrl: NavController) {
-  }
-  
   constructor(private barcodeScanner: BarcodeScanner) { }
 
   scanCode() {
